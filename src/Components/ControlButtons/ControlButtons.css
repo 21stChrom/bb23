@@ -1,0 +1,41 @@
+.ControlButtons {
+    margin: 3rem 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+.btn-grp {
+    margin-right: fit-content;
+    align-items: right;
+    justify-content: right;
+}
+.btn {
+    box-shadow: 0px 0px 7px 3px red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 3.5rem;
+    height: 6vh;
+    font-weight: bolder;
+    border-radius: 15%;
+    margin-top: 20px;
+    margin-right: 5px;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    border: 3px solid rgb(115, 213, 238);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+}
+#space{
+    height: 10px;
+    width: 40px;
+}
+.btn-one{
+
+    background-color: red;
+}
+.btn-two{
+    background-color: red;
+}
