@@ -3,18 +3,18 @@
     width: 100%;
     box-sizing: border-box;
     display: flex;
-    align-items: right;
-    justify-content: right;
+    align-items: center;
+    justify-content: center;
 }
-.btn-grp {
+    .btn-grp {
     margin-right: fit-content;
-    align-items: right;
-    justify-content: right;
+    align-items: center;
+    justify-content: center;
 }
 .btn {
     box-shadow: 0px 0px 7px 3px red;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 3.5rem;
+    width: 3.88rem;
     height: 6vh;
     font-weight: bolder;
     border-radius: 15%;
@@ -30,12 +30,14 @@
 }
 #space{
     height: 10px;
-    width: 40px;
+    width: 60px;
 }
 .btn-one{
-
-    background-color: red;
+    background-color: yellow;
+    box-shadow: rgb(192, 97, 192) 1px 0px 4px 4px;
 }
 .btn-two{
-    background-color: red;
+    color: white;
+    background-color: blue;
+    
 }
